@@ -11,9 +11,9 @@ export default function DataTable({ rows }) {
         </tr>
       </thead>
       <tbody>
-        {/* {rows.map((row) => (
+        {rows.map((row) => (
           <Row key={row.id} row={row} />
-        ))} */}
+        ))}
       </tbody>
     </table>
   );
